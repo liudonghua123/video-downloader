@@ -25,7 +25,7 @@
   "author": "liudonghua123 <liudonghua123@gmail.com>",
   "scripts": {
     "start": "node --import tsx bin/video-downloader.mts",
-    "prepublish": "tsc"
+    "prepublishOnly": "tsc"
   },
   "dependencies": {
     "chalk": "^5.3.0",
