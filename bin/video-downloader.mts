@@ -19,7 +19,7 @@ async function main() {
   const program = new Command();
   program
     .version(package_json.version)
-    .description("Create single executable application (SEA) from entry script")
+    .description("Download video from webpage by rule")
     .option("-u, --url <url>", "url of webpage for video download", 'http://yhdm4.one/acg/3545/1.html')
     .option("-r, --rule <rule>", "rule for video url, like url.includes('tos-alisg-v-0000') and so on...", "url.endsWith('sd.mp4')")
     .option("-o, --output <file_path>", "video file path to save", "")

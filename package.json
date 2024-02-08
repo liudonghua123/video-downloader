@@ -1,6 +1,6 @@
 {
   "name": "@liudonghua123/video-downloader",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "It's a simple tool which download video from yhdm.",
   "keywords": [
     "node",
