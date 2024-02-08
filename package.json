@@ -1,0 +1,51 @@
+{
+  "name": "@liudonghua123/video-downloader",
+  "version": "0.1.0",
+  "description": "It's a simple tool which download video from yhdm.",
+  "keywords": [
+    "node",
+    "cli",
+    "terminal",
+    "video",
+    "downloader",
+    "utility"
+  ],
+  "homepage": "https://github.com/liudonghua123/video-downloader",
+  "bugs": {
+    "url": "https://github.com/liudonghua123/video-downloader/issues",
+    "email": "liudonghua123@gmail.com"
+  },
+  "license": "MIT",
+  "main": "dist/lib/index.mjs",
+  "bin": {
+    "video-downloader": "bin/video-downloader.mts"
+  },
+  "type": "module",
+  "repository": "git@github.com:liudonghua123/video-downloader.git",
+  "author": "liudonghua123 <liudonghua123@gmail.com>",
+  "scripts": {
+    "start": "node --import tsx bin/video-downloader.mts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "figlet": "^1.7.0",
+    "ora": "^8.0.1",
+    "pretty-bytes": "^6.1.1",
+    "puppeteer-core": "^22.0.0",
+    "tsx": "^4.7.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "os": [
+    "win32",
+    "linux",
+    "darwin"
+  ],
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "typescript": "^5.3.3"
+  }
+}
