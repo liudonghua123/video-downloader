@@ -1,4 +1,4 @@
-#!/usr/bin/env -S npx tsx
+#!/usr/bin/env -S node --import=tsx
 
 import { Command, Option } from "commander";
 import figlet from "figlet";
