@@ -21,7 +21,10 @@
     "video-downloader": "dist/bin/video-downloader.mjs"
   },
   "type": "module",
-  "repository": "git@github.com:liudonghua123/video-downloader.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/liudonghua123/video-downloader.git"
+  },
   "author": "liudonghua123 <liudonghua123@gmail.com>",
   "scripts": {
     "start": "node --import tsx bin/video-downloader.mts",
