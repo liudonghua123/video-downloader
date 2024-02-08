@@ -18,7 +18,7 @@
   "license": "MIT",
   "main": "dist/lib/index.mjs",
   "bin": {
-    "video-downloader": "bin/video-downloader.mts"
+    "video-downloader": "dist/bin/video-downloader.mjs"
   },
   "type": "module",
   "repository": "git@github.com:liudonghua123/video-downloader.git",

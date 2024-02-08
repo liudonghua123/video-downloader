@@ -1,4 +1,4 @@
-#!/usr/bin/env -S node --import=tsx
+#!/usr/bin/env -S node --no-warnings=ExperimentalWarning
 
 import { Command, Option } from "commander";
 import figlet from "figlet";
